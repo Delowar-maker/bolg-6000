@@ -3,7 +3,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <section className="bg-blue-900 text-white">
+    <section className="">
       <div className="container mx-auto">
         <nav className="flex items-center py-6">
           <Link href="/">
@@ -52,13 +52,13 @@ const Header = () => {
           <div className="hidden lg:block">
             <Link
               href="/login"
-              className="text-sm bg-purple-500 hover:bg-purple-600 text-white py-2 px-4 rounded-lg m-2"
+              className="text-smpy-2 px-4 rounded-lg m-2"
             >
               Login
             </Link>
             <Link
               href="/sign-up"
-              className="text-sm bg-purple-500 hover:bg-purple-600 text-white py-2 px-4 rounded-lg"
+              className="text-sm py-2 px-4 rounded-lg"
             >
               Sign Up
             </Link>
@@ -131,7 +131,7 @@ const Header = () => {
             </ul>
             <div className="mt-4 pt-6 border-t border-gray-100">
               <a
-                className="block text-sm bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 mb-2 rounded"
+                className="block text-sm py-2 px-4 mb-2 rounded"
                 href="#"
               >
                 Sign Up

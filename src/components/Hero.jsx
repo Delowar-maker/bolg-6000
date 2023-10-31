@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
     return (
-        <section className="relative bg-gradient-to-b from-purple-600 to-purple-900 text-white py-20">
+        <section className="relative bg-gradient-to-b py-20">
             <div className="container mx-auto">
                 <div className="flex flex-wrap items-center -mx-3">
                     <div className="w-full lg:w-1/2 px-3">
@@ -10,7 +10,7 @@ const Hero = () => {
                             <div className="max-w-lg mx-auto mb-8 text-center lg:text-left">
                                 <h2 className="text-4xl lg:text-5xl mb-4 font-semibold">
                                     <span>A computer automatically</span>
-                                    <span className="text-yellow-400">A computer automatically</span>
+                                    <span className="text-400">A computer automatically</span>
                                     <span> A computer automatically.</span>
                                 </h2>
                                 <p className="text-gray-300 leading-relaxed">
@@ -39,14 +39,13 @@ const Hero = () => {
                         <div className="flex items-center justify-center">
                             <img
                                 className="lg:max-w-lg rounded-full shadow-lg"
-                                src="/1.jpg"
-                                alt="pcHouse"
+                               
                             />
                         </div>
                     </div>
                 </div>
             </div>
-            {/* ... (The rest of your component) */}
+            
         </section>
     );
 };
