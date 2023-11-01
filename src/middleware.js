@@ -1,5 +1,9 @@
 import { NextResponse } from "next/server";
 import { VerifyToken } from "@/utility/JWTTokenHelper";
+export { default } from "next-auth/middleware";
+export const config = {
+  matcher: ["/admin/:path*", "/search/:path*", "/dashboard/:path*"],
+};
 
 export async function middleware(req, res) {
   if (req.nextUrl.pathname.startsWith("/dashboard")) {
